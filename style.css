@@ -1,0 +1,55 @@
+.parr {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 36px;
+  color: white;
+}
+
+.title {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.line {
+  margin-bottom: 10px;
+  width: 40%;
+  text-align: center;
+}
+
+.containerBlank {
+  background: white;
+  width: 200px;
+  border-radius: 4px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 180px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 8px;
+}
+
+body {
+  background-image:
+    linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%),
+    url('img/washington.jpg');
+  background-size: cover;
+}
+
+.mainbkg {
+  z-index: 1;
+  background-size: cover;
+  padding: 0 !important;
+  height: 77vh;
+}
+
+.imgbkg {
+  margin-top: 200px;
+}
