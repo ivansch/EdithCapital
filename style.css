@@ -423,6 +423,12 @@ a {
   color: white;
 }
 
+@media (max-width: 1740px) {
+  .line {
+    width: 40%;
+  }
+}
+
 @media (max-width: 1360px) {
   .titleP {
     font-size: 53px;
