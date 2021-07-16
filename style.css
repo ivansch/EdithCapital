@@ -1,46 +1,636 @@
+a {
+  text-decoration-line: none !important;
+}
+
 .parr {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  text-align: center;
-  font-size: 36px;
-  color: white;
-}
-
-.title {
-  color: white;
-  font-size: 48px;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.line {
-  margin-bottom: 10px;
-  width: 40%;
-  text-align: center;
-}
-
-.containerBlank {
-  background: white;
-  width: 200px;
-  border-radius: 4px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
 }
 
 .logo {
-  width: 180px;
-  height: auto;
   display: block;
   margin: 0 auto;
-  padding: 8px;
+  margin-bottom: 120px;
+  margin-top: 80px;
+  width: 220px;
+  height: 34px;
 }
 
-body {
-  background-image:
-    linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%),
-    url('img/washington.jpg');
+.boxline {
+  border: 1px solid black;
+  height: 100%;
+  padding-top: 100px;
+}
+
+.imgSection {
+  background-image: url('img/foto_pie_what_we_do.jpg');
+  height: 360px;
+  background-position: center;
   background-size: cover;
+  width: 100%;
+}
+
+.line2 {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 14px;
+  opacity: 0.50 !important;
+  height: 1px !important;
+}
+
+.line3 {
+  display: none;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 14px;
+  opacity: 1 !important;
+  height: 1px !important;
+}
+
+.lineWhite {
+  display: block;
+  width: 380px;
+  margin: 0 auto;
+  color: white;
+  margin-bottom: 14px;
+  opacity: 1 !important;
+  height: 1px !important;
+}
+
+.line {
+  padding-left: inherit;
+  padding-right: inherit;
+  position: absolute;
+  left: 0;
+  width: 50%;
+  opacity: 1 !important;
+  height: 1px !important;
+  right: 0;
+}
+
+.logoH {
+  width: 220px;
+  height: 34px;
+}
+
+.titleP {
+  text-align: center;
+  font-size: 75px;
+  line-height: 91px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.textNav {
+  font-weight: 300;
+  font-size: 16px;
+  color: black;
+  line-height: 22px;
+  margin-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.textNav2 {
+  font-weight: 300;
+  font-size: 16px;
+  color: white;
+  line-height: 22px;
+  margin-left: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.textNav2:hover {
+  font-weight: 400;
+}
+
+.ulFooter {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.parrPercent {
+  margin-top: -10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.parrPercent:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
+}
+
+.parrPercentBlue {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #18168D;
+  line-height: 30px;
+  text-align: center;
+}
+
+.sectionPercent {
+  background-size: cover;
+  height: 800px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 44px;
+  padding-bottom: 44px;
+  background-position: center;
+  background-image:
+    linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(228, 228, 228, 0.6671043417366946) 0%),
+    url('img/background_datos.jpg');
+}
+
+.textNav:hover {
+  border-bottom: 1px solid #18168D;
+}
+
+.mainHome {
+  margin-top: 80px;
+}
+
+.navH {
+  margin-top: 40px;
+  background-color: white;
+}
+
+.imgHome {
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  height: 620px;
+  background-image: url('img/foto_home.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-top: -40px;
+}
+
+.parrSection {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 22px;
+  font-weight: 260;
+  line-height: 38px;
+}
+
+#whatWeDo {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+.aboutUs {
+  margin-bottom: 80px;
+  margin-top: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.contact {
+  margin-bottom: 80px;
+  margin-top: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.icon {
+  font-size: 32px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.divFlexSpaceBet {
+  display: flex;
+  justify-content: space-between;
+}
+
+.divFlexSpaceBetCont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bckCareers {
+  height: 400px;
+  width: auto;
+  background-image: url('img/careers.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 80px;
+}
+
+.title3 {
+  font-size: 40px;
+  margin-bottom: 0;
+  line-height: 49px;
+  letter-spacing: 0.1em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.foot {
+  width: auto;
+  padding-top: 120px;
+  height: 340px;
+  margin-top: 80px;
+  background-color: black;
+}
+
+.parrBtn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  text-align: center;
+  color: #000000;
+}
+
+.btnAp {
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  height: 64px;
+  background-color: white;
+}
+
+.ulFooter {
+  padding-left: 0px !important;
+}
+
+.btnAp:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.parrAbout {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: 0.07em;
+  color: #1F1F1F;
+  margin-top: 34px;
+}
+
+.parrContact {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #1F1F1F;
+  margin-top: 34px;
+}
+
+.parrContact:hover {
+  color: #18168D;
+  cursor: pointer;
+}
+
+.title2 {
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.titleJoin {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 49px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  letter-spacing: 0.1em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbarUl {
+  padding-right: 40px;
+}
+
+.parrCenter {
+  text-align: center;
+}
+
+.navbar {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 40px;
+}
+
+.photoAboutUs {
+  width: 700px;
+  height: auto;
+}
+
+.artcAboutUs {
+  margin-right: 164px;
+}
+
+.photoContact {
+  width: 220px;
+  height: 400px;
+}
+
+.divPhotoContact {
+  width: 680px;
+  height: 400px;
+  background-image: url("img/contact.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.divFlex {
+  display: flex;
+}
+
+.svgTop {
+  margin-top: 86px;
+}
+
+.divFlexPerc {
+  display: flex;
+  justify-content: space-around;
+}
+
+.divFlexPerc2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fooArt {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  margin-top: 40px;
+}
+
+.divContIcons {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  width: 360px;
+}
+
+.divFlexCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.boxHome {
+  width: 56%;
+  height: auto;
+  z-index: 2;
+  background-color: black;
+  display: block;
+  margin: 0 auto;
+}
+
+.pWhiteT {
+  font-size: 40px;
+  line-height: 34px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.svgIcon {
+  width: 64px;
+  display: block;
+  margin: 0 auto;
+  fill: #18168D;
+}
+
+.svgIconFoot {
+  width: 64px;
+  display: block;
+  margin: 0 auto;
+  fill: white;
+}
+
+.artContact {
+  margin: 0 auto;
+  display: block;
+  width: 60%;
+}
+
+.pWhite {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+@media (max-width: 1360px) {
+  .titleP {
+    font-size: 53px;
+  }
+
+  .photoAboutUs {
+    width: 50%;
+    height: auto;
+  }
+
+  .line {
+    width: 34%;
+  }
+
+  .pWhiteT {
+    font-size: 24px;
+  }
+
+  .title2 {
+    font-size: 36px;
+  }
+
+  .parrSection {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .titleP {
+    font-size: 48px;
+  }
+
+  .pWhiteT {
+    font-size: 20px;
+  }
+
+  .title2 {
+    font-size: 36px;
+  }
+
+  .parrSection {
+    font-size: 18px;
+  }
+
+  .photoAboutUs {
+    display: none;
+  }
+
+  .artcAboutUs {
+    margin-right: 0px;
+  }
+
+  .parrAbout {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .divPhotoContact {
+    display: none;
+    width: 0px;
+  }
+
+  .line {
+    display: none
+  }
+
+  .line3 {
+    display: block;
+  }
+
+  .divFlexSpaceBetCont {
+    justify-content: center;
+  }
+
+  .title3 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .parrContact {
+    text-align: center;
+  }
+}
+
+@media (max-width: 780px) {
+  .pWhiteT {
+    font-size: 16px;
+  }
+
+  .titleP {
+    font-size: 36px;
+  }
+
+  .logoH {
+    width: 180px;
+    height: 28px;
+  }
+
+  .svgIcon {
+    width: 48px;
+  }
+
+  .parrPercent {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  .parrPercentBlue {
+    font-size: 18px;
+  }
+
+  #whatWeDo {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 660px) {
+  .fooArt {
+    width: 80%;
+  }
+
+  .divContIcons {
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    width: 80%;
+  }
+
+  .lineWhite {
+    width: 80%;
+  }
+
+  .icon {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 560px) {
+  .titleP {
+    font-size: 24px;
+  }
+
+  .fooArt {
+    width: 100%;
+  }
+
+  .textNav2 {
+    font-size: 12px;
+  }
+
+  .boxHome {
+    width: 82%;
+  }
+
+  .aboutUs {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .contact {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .boxline {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 28px;
+  }
+
+  .parrPercent {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .parrPercentBlue {
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .sectionPercent {
+    height: 540px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .navHamburg {
+    top: 0px;
+    background-color: white;
+    margin-top: 68px;
+    height: 50vh;
+    text-align: center;
+    width: 100%;
+  }
+
+  .textNav:hover {
+    color: #18168D;
+    font-weight: normal;
+    border-bottom: 0px solid #18168D;
+  }
+
+  .pWhiteT {
+    font-size: 14px;
+  }
 }
 
 .mainbkg {
