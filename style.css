@@ -137,7 +137,7 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  color: #18168D;
+  color: #224E8F;
   line-height: 30px;
   text-align: center;
 }
@@ -411,7 +411,7 @@ a {
   width: 64px;
   display: block;
   margin: 0 auto;
-  fill: #18168D;
+  fill: #224E8F;
 }
 
 .svgIconFoot {
@@ -693,5 +693,11 @@ a {
   .logo {
     width: 300px;
     height: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbarUl {
+    padding-right: 0px;
   }
 }
